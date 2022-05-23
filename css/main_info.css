@@ -1,0 +1,8 @@
+.main__inner {
+  display: flex;
+}
+
+.main__desription {
+  width: 490px;
+  margin-left: 60px;
+}
