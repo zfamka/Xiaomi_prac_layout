@@ -1,3 +1,7 @@
+.main {
+  padding-bottom: 150px;
+}
+
 .main__inner {
   display: flex;
 }
@@ -5,4 +9,21 @@
 .main__desription {
   width: 490px;
   margin-left: 60px;
+}
+
+.main__description-item + .main__description-item {
+  padding-top: 50px;
+}
+
+.main__desription-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.main__desription-text {
+  margin-top: 10px;
+  line-height: 125%;
+  width: 450px;
 }

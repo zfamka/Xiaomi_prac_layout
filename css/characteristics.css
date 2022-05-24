@@ -1,0 +1,52 @@
+.characteristics {
+  padding-bottom: 170px;
+}
+
+.characteristics__inner {
+  display: flex;
+}
+
+.characteristics__list {
+  padding-bottom: 30px;
+}
+
+.characteristics__line {
+  display: flex;
+  justify-content: space-between;
+  width: 570px;
+  margin-right: 60px;
+}
+
+.characteristics__title {
+  padding-bottom: 40px;
+}
+
+.characteristics__header {
+  margin-bottom: 10px;
+  background-color: #131313;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 22px;
+  width: 570px;
+}
+
+.characteristics__line {
+  line-height: 120%;
+}
+
+.characteristics__name {
+  padding-bottom: 5px;
+  width: 285px;
+}
+
+.characteristics__descr {
+  padding-bottom: 5px;
+  width: 285px;
+  text-align: left;
+}
+
+.characteristics__img {
+  align-self: center;
+  padding-bottom: 80px;
+}
