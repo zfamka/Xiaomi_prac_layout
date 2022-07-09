@@ -52,5 +52,21 @@
 }
 
 .form__radio-style {
-
+  border-radius: 30px;
+  width: 80px;
+  height: 12px;
 }
+
+.form__radio-style--grey {
+  background: #6f6f6f;
+}
+
+.form__radio-style--white {
+  background: #fff;
+  border: 1px solid #6f6f6f;
+}
+
+.form__radio-style--red {
+  background: #ff4040;
+}
+
