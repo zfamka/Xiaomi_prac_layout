@@ -41,10 +41,23 @@
 
 .form__label-box {
   display: flex;
+  margin-bottom: 50px;
+}
+
+.form__label + .form__label {
+  margin-left: 23px;
 }
 
 .form__input-radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
 
+.form__input-radio:checked + .form__bike {
+  display: block;
 }
 
 .form__bike {
@@ -68,5 +81,16 @@
 
 .form__radio-style--red {
   background: #ff4040;
+}
+
+.form__btn {
+  background-color: #131313;
+  padding: 28px 81px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1.1em;
 }
 
