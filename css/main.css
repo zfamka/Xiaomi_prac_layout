@@ -5,11 +5,16 @@
 @import url(characteristics.css);
 @import url(slider.css);
 @import url(form.css);
+@import url(footer.css);
 
 *,
 *::after,
 *::before {
   box-sizing: border-box;
+}
+
+html {
+  /* scroll-behavior: smooth; */
 }
 
 ul {
