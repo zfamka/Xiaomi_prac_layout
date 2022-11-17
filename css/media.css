@@ -126,6 +126,15 @@
     height: 390px;
   }
 
+  .form {
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .form__text {
+    max-width: 100%;
+  }
+
   .form__label-box {
     margin-bottom: 320px;
   }
@@ -133,11 +142,15 @@
   .form__bike {
     right: auto;
     left: 0;
-    top: 330px;
+    top: 320px;
   }
 
   .form__bike-price {
     left: 440px;
+  }
+
+  .form__btn {
+    padding: 28px 59px 28px 81px;
   }
 }
 
