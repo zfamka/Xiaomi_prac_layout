@@ -49,7 +49,7 @@ body {
 }
 
 .container {
-  width: 1220px;
+  max-width: 1220px;
   padding: 0 10px;
   margin: 0 auto;
 }
