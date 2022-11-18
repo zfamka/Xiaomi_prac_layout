@@ -136,7 +136,7 @@
   }
 
   .form__label-box {
-    margin-bottom: 320px;
+    margin-bottom: 340px;
   }
 
   .form__bike {
@@ -194,11 +194,22 @@
     font-size: 17px;
     width: 150px;
     height: 50px;
+    padding-top: 10px;
   }
 
   .form__bike-price::after {
     width: 150px;
     height: 50px;
+  }
+
+  .footer__inner {
+    height: 150px;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .footer__link {
+    order: 1;
   }
 
 }
@@ -230,6 +241,22 @@
     height: 190px;
   }
 
+  .form__btn {
+    padding: 13px 19px 13px 19px;
+    font-size: 13px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .form__bike-price {
+    left: 70px;
+    top: -40px;
+  }
+
+  .form__bike-img {
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 450px) {
@@ -247,6 +274,10 @@
   .bike__subtitle {
     font-size: 20px;
   }
+
+  .form__label-box {
+    margin-bottom: 290px;
+} 
 }
 
 @media (max-width: 340px) {
